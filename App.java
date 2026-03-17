@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class App {
      public static void main(String[] args) {
 
-        String url = "jdbc:mysql://localhost:3306DATABASE_NAME";
+        String url = "jdbc:mysql://localhost:3306/DATABASE_NAME";
         String user = "root";
         String pass = "PASSWORD";
         Scanner sc=new Scanner(System.in);
