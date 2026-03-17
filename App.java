@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class App {
      public static void main(String[] args) {
 
-        String url = "jdbc:mysql://localhost:3306/question_bank";
+        String url = "jdbc:mysql://localhost:3306DATABASE_NAME";
         String user = "root";
-        String pass = "Paritosh@123";
+        String pass = "PASSWORD";
         Scanner sc=new Scanner(System.in);
         try{
          Class.forName("com.mysql.cj.jdbc.Driver");
